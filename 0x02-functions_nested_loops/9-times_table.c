@@ -9,8 +9,8 @@
  *              It calls the times_table function to generate and print
  *              the times table. The function then returns 0.
  */
-int main(void)
-{
-    times_table();
-    return (0);
-}
+	int main(void)
+	{
+	    times_table();
+	    return (0);
+	}
