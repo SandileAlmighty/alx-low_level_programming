@@ -1,13 +1,15 @@
 #include "main.h"
-	/**
-	 * main - print _putchar
-	 * is written by mbah
-	 * Return: 0
-	 */
 
-
-	int main(void)
-	{
+/**
+ * main - Entry point of the program.
+ *
+ * Return: Always 0.
+ *
+ * Description: This function prints the string "_putchar" using the _putchar function.
+ *              It serves as a demonstration of the _putchar function.
+ */
+int main(void)
+{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -17,18 +19,6 @@
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+	
 	return (0);
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
